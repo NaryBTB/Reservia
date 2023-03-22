@@ -211,6 +211,11 @@ button:hover {
   width: -moz-fit-content; /*pour firefox*/
   margin-top: 50px;
 }
+.hebergement p:hover {
+  width: fit-content;
+  text-decoration: underline;
+  color: black;
+}
 .hebergement section {
   background-color: #f2f2f2;
   border-radius: 15px;
@@ -505,6 +510,11 @@ footer section p {
   cursor: pointer;
   width: fit-content;
   width: -moz-fit-content;
+}
+
+footer section p:hover {
+  text-decoration: underline;
+  color: 0065fc;
 }
 
 footer p:hover {
